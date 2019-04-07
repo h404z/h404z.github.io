@@ -301,7 +301,7 @@
         
           
             <p>（转自<a href="https://www.liaoxuefeng.com/" target="_blank" rel="noopener">https://www.liaoxuefeng.com/</a>）</p>
-<p>之前总是记不住replace函数到底会不会改变原来的，看完原理的解释之后就很好理解了，对于不可变对象，replace函数实际上是创建了一个新值的对象，原来的不可变对象仍然是没有变化的。</p>
+<p>之前总是记不住replace函数到底会不会改变原值，看完原理的解释之后就很好理解了，对于不可变对象，replace函数实际上是创建了一个新值的对象，原来的不可变对象仍然是没有变化的。</p>
 <p>str是不变对象，而list是可变对象。</p>
 <p>对于可变对象，比如list，对list进行操作，list内部的内容是会变化的，比如：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; a = [&apos;c&apos;, &apos;b&apos;, &apos;a&apos;]</span><br><span class="line">&gt;&gt;&gt; a.sort()</span><br><span class="line">&gt;&gt;&gt; a</span><br><span class="line">[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]</span><br></pre></td></tr></table></figure>
