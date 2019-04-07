@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="python,">
 
 
 
@@ -79,13 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Nick&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="输入输出输入will be shown on the console&quot;)```12输出```print() 数据类型和变量整数      十六进制0x5f 浮点数  科学记数法，把10用e替代，如1.23x10的9次方，就是1.23e9 整数永远精确，浮点数有四舍五入的误差 字符串 布尔值 空值  用None表示。None不能理解为0，因为0是有意义的，而None是一个特殊的空值。 字符编码对于单">
+<meta name="keywords" content="python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python学习笔记备忘">
+<meta property="og:url" content="http://yoursite.com/2019/03/28/python学习笔记备忘/index.html">
 <meta property="og:site_name" content="Nick&#39;s Blog">
+<meta property="og:description" content="输入输出输入will be shown on the console&quot;)```12输出```print() 数据类型和变量整数      十六进制0x5f 浮点数  科学记数法，把10用e替代，如1.23x10的9次方，就是1.23e9 整数永远精确，浮点数有四舍五入的误差 字符串 布尔值 空值  用None表示。None不能理解为0，因为0是有意义的，而None是一个特殊的空值。 字符编码对于单">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-04-07T12:54:18.700Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nick&#39;s Blog">
+<meta name="twitter:title" content="python学习笔记备忘">
+<meta name="twitter:description" content="输入输出输入will be shown on the console&quot;)```12输出```print() 数据类型和变量整数      十六进制0x5f 浮点数  科学记数法，把10用e替代，如1.23x10的9次方，就是1.23e9 整数永远精确，浮点数有四舍五入的误差 字符串 布尔值 空值  用None表示。None不能理解为0，因为0是有意义的，而None是一个特殊的空值。 字符编码对于单">
 
 
 
@@ -115,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/03/28/python学习笔记备忘/">
 
 
 
 
 
-  <title>Nick's Blog</title>
+  <title>python学习笔记备忘 | Nick's Blog</title>
   
 
 
@@ -140,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +218,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/03/28/python学习笔记备忘/" itemprop="url">python学习笔记备忘</a></h1>
+          <h1 class="post-title" itemprop="name headline">python学习笔记备忘</h1>
         
 
         <div class="post-meta">
@@ -298,9 +300,7 @@
       
 
       
-        
-          
-            <h2 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h2><p>输入<figure class="highlight plain"><figcaption><span>will be shown on the console")```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">输出```print()</span><br></pre></td></tr></table></figure></p>
+        <h2 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h2><p>输入<figure class="highlight plain"><figcaption><span>will be shown on the console")```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">输出```print()</span><br></pre></td></tr></table></figure></p>
 <h2 id="数据类型和变量"><a href="#数据类型和变量" class="headerlink" title="数据类型和变量"></a>数据类型和变量</h2><p>整数      十六进制<code>0x5f</code></p>
 <p>浮点数  科学记数法，把10用e替代，如1.23x10的9次方，就是<code>1.23e9</code></p>
 <p><strong>整数永远精确，浮点数有四舍五入的误差</strong></p>
@@ -318,8 +318,6 @@
 <p>在操作字符串时，我们经常遇到<code>str</code>和<code>bytes</code>的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8编码对<code>str</code>和<code>bytes</code>进行转换。</p>
 <p>由于Python源代码也是一个文本文件，所以，当你的源代码中包含中文的时候，在保存源代码时，就需要务必指定保存为UTF-8编码。当Python解释器读取源代码时，为了让它按UTF-8编码读取，我们通常在文件开头写上这两行：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env python3</span><br><span class="line"># -*- coding: utf-8 -*-</span><br></pre></td></tr></table></figure>
-          
-        
       
     </div>
     
@@ -334,164 +332,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/24/mac-pycharm-pyqt开发环境准备/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Nick Ho">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Nick's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/03/24/mac-pycharm-pyqt开发环境准备/" itemprop="url">mac+pycharm+pyqt开发环境准备</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-24T22:26:22+08:00">
-                2019-03-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/python/" rel="tag"># python</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>pyqt的搭建过程遇到不少问题，简单记录下方便日后部署。</p>
-<ol>
-<li><p>mac自带的是python2.7，似乎pyqt5只支持python3，由于不想重新编译pyqt5的源码（需要解决各种报错和依赖），遂安装python3.7 <a href="https://www.python.org/getit/" target="_blank" rel="noopener">https://www.python.org/getit/</a></p>
-</li>
-<li><p>pyqt的安装方式很多，尝试从官网下载安装包，但多次出现网络访问问题，最后改用pip，完成安装</p>
-<blockquote>
-<p>pip3 install pyqt5</p>
-</blockquote>
-</li>
-<li><p>pyqt安装完成后，import一下确认安装ok</p>
-<p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1g1ea8ocfihj30eb030q34.jpg" alt></p>
-</li>
-<li><p>在pycharm配置designer和uic，方便调用</p>
-<ol>
-<li><p>designer</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1g1eamixwl6j30eg09smy4.jpg" alt></p>
-<p>Program:<code>/usr/local/Cellar/qt/5.12.1/libexec/Designer.app</code></p>
-</li>
-<li><p>uic</p>
-<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1g1eao3m12mj30ek09s75b.jpg" alt></p>
-<p>Program:<code>/Library/Frameworks/Python.framework/Versions/3.7/bin/pyuic5</code></p>
-<p>Arguments:<code>$FileName$ -o $FileNameWithoutExtension$.py</code></p>
-</li>
-</ol>
-</li>
-<li><p>简单写个hello world把<code>designer生成ui文件 -&gt; uic把ui文件转化成py文件 -&gt; 运行程序显示控件</code>整个流程跑起来。</p>
-<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1g1eaugog43j30q407dgmz.jpg" alt></p>
-<p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1g1ebaoukr1j30hx06smxb.jpg" alt></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> hello_world</span><br><span class="line"><span class="keyword">from</span> PyQt5.QtWidgets <span class="keyword">import</span> QApplication, QMainWindow</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    app = QApplication(sys.argv)</span><br><span class="line">    MainWindow = QMainWindow()</span><br><span class="line">    ui = hello_world.Ui_MainWindow()</span><br><span class="line">    ui.setupUi(MainWindow)</span><br><span class="line">    MainWindow.show()</span><br><span class="line">    sys.exit(app.exec_())</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/24/mac-pycharm-pyqt开发环境准备/" rel="next" title="mac+pycharm+pyqt开发环境准备">
+                <i class="fa fa-chevron-left"></i> mac+pycharm+pyqt开发环境准备
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -501,10 +371,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -512,6 +383,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -532,8 +407,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -584,6 +468,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#输入输出"><span class="nav-number">1.</span> <span class="nav-text">输入输出</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据类型和变量"><span class="nav-number">2.</span> <span class="nav-text">数据类型和变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字符编码"><span class="nav-number">3.</span> <span class="nav-text">字符编码</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Encode报错"><span class="nav-number">3.0.1.</span> <span class="nav-text">Encode报错</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Decode报错"><span class="nav-number">3.0.2.</span> <span class="nav-text">Decode报错</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -724,6 +624,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
